@@ -1,8 +1,12 @@
 {
   "name": "smm",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "An API package for getting information relating to Super Mario Maker, including course information and user stats",
   "main": "index.js",
+  "repository" : {
+    "type": "git",
+    "url": "https://github.com/RedDuckss/smm"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
