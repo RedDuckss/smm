@@ -168,7 +168,7 @@ var getCourseData = function(id, cb) {
             player_data.profile_name = player_data.profile.substring(URL_BASE.length + 9, player_data.profile.indexOf('?type=posted'));
             player_data.flag = player.children[1].children[0].attributes.className[1];
             
-            //_return.recent_players.push(player_data);
+            _return.recent_players.push(player_data);
         }
 
         for (var i=0;i<body.children[12].children[0].children.length;i++) {
@@ -181,7 +181,7 @@ var getCourseData = function(id, cb) {
             player_data.profile_name = player_data.profile.substring(URL_BASE.length + 9, player_data.profile.indexOf('?type=posted'));
             player_data.flag = player.children[1].children[0].attributes.className[1];
             
-            //_return.cleared_by.push(player_data);
+            _return.cleared_by.push(player_data);
         }
 
         for (var i=0;i<body.children[15].children[0].children.length;i++) {
@@ -194,7 +194,7 @@ var getCourseData = function(id, cb) {
             player_data.profile_name = player_data.profile.substring(URL_BASE.length + 9, player_data.profile.indexOf('?type=posted'));
             player_data.flag = player.children[1].children[0].attributes.className[1];
             
-            //_return.stared_by.push(player_data);
+            _return.stared_by.push(player_data);
         }
 
         return cb(null, _return);
