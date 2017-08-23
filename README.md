@@ -10,7 +10,7 @@ npm i smm --save
 
 ### getCourseData(courseID, callback)
 Accepts two arguments:
-* `courseID`: The 16-digit course ID
+* `courseID`: The 19-digit course ID
 * `callback`: Callback when course data is grabbed:
     * `error`: An error, if there was one
     * `data`: All available course data
@@ -23,7 +23,7 @@ smm.getCourseData(courseID, (error, data) => {
 });
 ```
 If no error, returns:
-* `id`: The 16-digit course ID
+* `id`: The 19-digit course ID
 * `name`: The course name
 * `tag`: The course tag
 * `style`: Short-hand version of course style (skin)

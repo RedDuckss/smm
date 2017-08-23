@@ -1,6 +1,6 @@
 {
   "name": "smm",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "An API package for getting information relating to Super Mario Maker, including course information and user stats",
   "main": "index.js",
   "scripts": {
