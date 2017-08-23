@@ -1,6 +1,6 @@
 var smm = require('../');
 
-smm.getCourseData('74DB-0000-0356-07BA', (error, data) => {
+smm.getCourseData('F6A4-0000-0286-ECA1', (error, data) => {
     if (error) throw error;
     console.log(data);
 });
